@@ -1,0 +1,1 @@
+/home/adam/haskell/shake/docs/manual/build.sh

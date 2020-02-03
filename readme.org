@@ -1,1 +1,3 @@
-* readme
+* Required software
+ - [[https://docs.haskellstack.org/en/stable/README/][Haskell Stack]]
+ - [[https://shakebuild.com/][Shake Build System]] (installable with Stack)

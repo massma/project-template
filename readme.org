@@ -1,3 +1,21 @@
 * Required software
  - [[https://docs.haskellstack.org/en/stable/README/][Haskell Stack]]
  - [[https://shakebuild.com/][Shake Build System]] (installable with Stack)
+* Build instructions
+** Windows (untested)
+
+   Clone this repository, enter directory, and run:
+
+#+BEGIN_SRC bash
+  stack exec ./build.bat
+#+END_SRC
+
+** GNU/Linux instructions
+
+   Clone this repository, enter directory, and run:
+
+#+BEGIN_SRC bash
+  stack exec ./build.sh
+#+END_SRC
+
+   This should also probably work on OSX, but I haven't tested it.

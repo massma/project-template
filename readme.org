@@ -15,7 +15,7 @@
    Clone this repository, enter directory, and run:
 
    #+BEGIN_SRC bash
-  stack build && stack exec build.sh
+  stack build && stack exec build
    #+END_SRC
 
    or, with GNU Make:

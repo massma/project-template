@@ -4,6 +4,11 @@
 {-# OPTIONS_GHC -Wincomplete-uni-patterns #-}
 {-# OPTIONS_GHC -Wredundant-constraints #-}
 
+module Main
+  ( main
+  )
+where
+
 import           Development.Shake
 import           Development.Shake.Command
 import           Development.Shake.FilePath

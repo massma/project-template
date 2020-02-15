@@ -10,7 +10,7 @@
   stack build && stack exec build
    #+END_SRC
 
-** GNU/Linux instructions
+** Linux instructions
 
    Clone this repository, enter directory, and run:
 

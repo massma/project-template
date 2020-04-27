@@ -7,7 +7,7 @@
    Clone this repository, enter directory, and run:
 
    #+BEGIN_SRC bash
-  stack build && stack exec build
+     stack build && stack exec build
    #+END_SRC
 
 ** Linux instructions
@@ -15,13 +15,13 @@
    Clone this repository, enter directory, and run:
 
    #+BEGIN_SRC bash
-  stack build && stack exec build
+     stack build && stack exec build
    #+END_SRC
 
    or, with GNU Make:
 
    #+BEGIN_SRC bash
- make
+     make
    #+END_SRC
 
    This should also probably work on OSX, but I haven't tested it.

@@ -26,4 +26,4 @@ common build-dependencies
 executable build
   import: build-dependencies
   main-is: Shakefile.hs
-  ghc-options: -rtsopts -threaded -with-rtsopts=-I0 -outputdir=_shake
+  ghc-options: -rtsopts -threaded -with-rtsopts=-I0 -outputdir=_shake -O0

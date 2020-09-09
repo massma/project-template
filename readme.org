@@ -7,7 +7,7 @@
    Clone this repository, enter directory, and run:
 
    #+BEGIN_SRC bash
-     cabal v2-build && cabal v2-run build
+     cabal new-run build
    #+END_SRC
 
 ** Linux instructions
@@ -15,7 +15,7 @@
    Clone this repository, enter directory, and run:
 
    #+BEGIN_SRC bash
-     cabal v2-build && cabal v2-run build
+     cabal new-run build
    #+END_SRC
 
    or, with GNU Make:

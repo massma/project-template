@@ -1,4 +1,4 @@
-cabal-version: 3.2
+cabal-version: 2.2
 
 name:           build
 version:        0.1.0.0
@@ -12,10 +12,10 @@ extra-source-files:
     readme.org
     Makefile
 
--- my default is to not even think twice about incluidng anything in
--- Haskell core, or packages that ship with GHC. See
+-- my default is to not even think twice about incluidng anything not
+-- in Haskell core or packages that ship with GHC. See
 -- https://wiki.haskell.org/Core_Libraries_Committee for both the core
--- libraries, and the libraries that aren't core but ship with GHC I
+-- libraries, and the libraries that aren't core but ship with GHC. I
 -- also generally install local haddock data for these libraries.
 common build-dependencies
   build-depends:
